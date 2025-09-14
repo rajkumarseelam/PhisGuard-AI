@@ -4,7 +4,7 @@
 <meta name="author" content="Marcin Ulikowski">
 <meta name="description" content="Find lookalike phishing domains that adversaries can use to attack you">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>dnstwist | phishing domain scanner</title>
+<title>dnspermutator | phishing domain scanner</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABgUExURS2dzv///6TH4f7+/+7z+I272wxOgyBwofb5++bq70Whz3Ww1tPi77DM493n8CyZyvn7/JyounuKpBx3qczd61qm0QtWixFfkhZqnDmfz57C3WCSuLvI12OZv4yxz7vBzYWBO0AAAAB6SURBVBjTXc2HCsMwDARQXSSv2M6enf//l21xk9o9EIgHJxH+QlNVJJDslKUWQkzrPntVxQCCfYxmWxc9PB1/brzH9Vov62bGu0sQfZ1qnhM0x8nmW4FKHy44QK7G3GzHJ0AGrXuLH7Bq27nLAIFoQg6sFBcAEZRw5gWepARYlUogjwAAAABJRU5ErkJggg==">
 <style>
@@ -517,15 +517,14 @@ progress::-moz-progress-bar {
 }
 
 /* Enhanced Animations */
-@keyframes fadeInUp {
-	from {
-		opacity: 0;
-		transform: translateY(30px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+	from { transform: translateY(-20px); opacity: 0; }
+	to { transform: translateY(0); opacity: 1; }
 }
 
 @keyframes pulse-glow {
@@ -825,10 +824,118 @@ span#source {
 	box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
 }
 
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    animation: fadeIn 0.3s;
+}
+
+.modal-content {
+    position: relative;
+    background: white;
+    margin: 5% auto;
+    padding: 0;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    animation: slideInDown 0.4s;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: #667eea;
+}
+
+.modal-body {
+    padding: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close:hover {
+    color: #667eea;
+}
+
+.history-item {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-left: 4px solid #667eea;
+}
+
+.history-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.history-domain {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.history-date {
+    color: #888;
+    font-size: 0.8em;
+}
+
+.history-stats {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.history-stat {
+    background: #f8f9fa;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 0.8em;
+    color: #667eea;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInDown {
+    from { transform: translateY(-30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
 @media (max-width: 800px) {
 	body, table, span {
 		font-size: 75%;
-	}
+	}	pip install -r webapp/requirements.txt	pip install -r webapp/requirements.txt	pip install -r webapp/requirements.txt	pip install -r webapp/requirements.txt	pip install -r webapp/requirements.txt	pip install -r webapp/requirements.txt	pip install -r webapp/requirements.txt	pip install -r webapp/requirements.txt
 	div#container {
 		width: 95%;
 		margin: 1em auto;
@@ -879,6 +986,10 @@ span#source {
 		flex-direction: column;
 		gap: 15px;
 	}
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
 }
 </style>
 </head>
@@ -886,14 +997,30 @@ span#source {
 	<div id="container">
 		<div>
 			<header>
-				<h1><img id="logo" src="data:image/png;base64,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"></h1>
-				<p>phishing domain scanner</p>
+				<h1 style="font-size: 32px; color: #667eea; text-shadow: 2px 2px 4px rgba(0,0,0,0.1);">Dns-permutator</h1>
+				<!-- <p>phishing domain scanner</p> -->
 			</header>
 			<div id="searchbox">
 				<input type="hidden" id="sid">
 				<input type="text" id="url" placeholder="🔍 Enter domain name (e.g., google.com)" autofocus>
 				<button id="scan">🔍 Scan</button>
+				<button id="history">📊 History</button>
 			</div>
+            
+            <!-- History Modal -->
+            <div id="history-modal" class="modal" style="display:none;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>📊 Scan History</h2>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div id="history-list">
+                            <p>Loading history...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 			
 			<!-- Interactive Dashboard -->
 			<div id="dashboard" style="display: none;">
@@ -1043,7 +1170,7 @@ span#source {
 		
 		<table id="data"></table>
 	</div>
-	<span id="source">[<a href="https://github.com/elceef/dnstwist">source code</a>]</span>
+	<span id="source">[<a href="#">dnspermutator</a>]</span>
 </body>
 <script>
 window.onload = function() {
@@ -1192,7 +1319,7 @@ function exportResults() {
 	const url = URL.createObjectURL(blob);
 	const a = document.createElement('a');
 	a.href = url;
-	a.download = `dnstwist-scan-${Date.now()}.json`;
+	a.download = `dnspermutator-scan-${Date.now()}.json`;
 	a.click();
 	URL.revokeObjectURL(url);
 	
@@ -1554,6 +1681,21 @@ $('#url').on('keypress',function(e) {
     }
 });
 
+$('#history').click(function() {
+    loadHistory();
+});
+
+// Close modal when clicking on X or outside the modal
+$('.close').click(function() {
+    $('#history-modal').fadeOut();
+});
+
+$(window).click(function(e) {
+    if ($(e.target).is('#history-modal')) {
+        $('#history-modal').fadeOut();
+    }
+});
+
 // Enhanced domain cards functionality
 function updateDomainCards() {
 	$.getJSON('/api/scans/' + $('#sid').val() + '/domains', function(data) {
@@ -1722,5 +1864,150 @@ function toggleView() {
 function toggleFilters() {
 	$('.results-controls').slideToggle();
 }
+
+// Functions for the PostgreSQL history feature
+function loadHistory() {
+	$('#history-list').html('<p>Loading history...</p>');
+	$('#history-modal').fadeIn();
+	
+	$.ajax({
+		url: '/api/history',
+		type: 'GET',
+		success: function(data) {
+			if (data.length > 0) {
+				let html = '';
+				data.forEach(function(scan) {
+					const date = new Date(scan.timestamp * 1000);
+					const formattedDate = date.toLocaleString();
+					
+					html += `
+						<div class="history-item" data-scan-id="${scan.id}">
+							<div class="history-domain">${scan.domain}</div>
+							<div class="history-date">${formattedDate}</div>
+							<div class="history-stats">
+								<div class="history-stat">Total: ${scan.total}</div>
+								<div class="history-stat">Found: ${scan.registered}</div>
+								<div class="history-stat">Success: ${Math.round((scan.registered / scan.total) * 100)}%</div>
+							</div>
+						</div>
+					`;
+				});
+				$('#history-list').html(html);
+				
+				// Add click event to history items
+				$('.history-item').on('click', function() {
+					const scanId = $(this).data('scan-id');
+					loadHistoricalScan(scanId);
+				});
+			} else {
+				$('#history-list').html('<p>No scan history available</p>');
+			}
+		},
+		error: function() {
+			$('#history-list').html('<p>Error loading history</p>');
+		}
+	});
+}
+
+function loadHistoricalScan(scanId) {
+	$('#history-modal').fadeOut();
+	$('#loading').slideDown();
+	
+	$.ajax({
+		url: '/api/history/' + scanId,
+		type: 'GET',
+		success: function(data) {
+			// Clear current scan data
+			$('#sid').val('');
+			$('#data').html('');
+			$('#domain-cards-container').html('');
+			
+			$('#loading').slideUp();
+			
+			if (data.domains && data.domains.length > 0) {
+				let tableRows = '';
+				let cardsHtml = '';
+				
+				data.domains.forEach(function(domain) {
+					let fuzzer = domain.fuzzer || '';
+					let dns_a = domain.dns_a && domain.dns_a.length > 0 ? domain.dns_a.join(', ') : '';
+					let dns_mx = domain.dns_mx && domain.dns_mx.length > 0 ? domain.dns_mx.map(r => r[1]).join(', ') : '';
+					let dns_ns = domain.dns_ns && domain.dns_ns.length > 0 ? domain.dns_ns.join(', ') : '';
+					let geoip = domain.geoip ? `${domain.geoip.country_name} (${domain.geoip.country_code})` : '';
+					
+					tableRows += `<tr>
+						<td>${domain.domain}</td>
+						<td>${fuzzer}</td>
+						<td>${dns_a}</td>
+						<td>${dns_mx}</td>
+						<td>${dns_ns}</td>
+						<td>${geoip}</td>
+					</tr>`;
+					
+					// Determine risk level based on fuzzer type
+					let riskClass = 'risk-low';
+					if (fuzzer.includes('homoglyph') || fuzzer.includes('bitsquatting')) {
+						riskClass = 'risk-high';
+					} else if (fuzzer.includes('hyphenation') || fuzzer.includes('addition')) {
+						riskClass = 'risk-medium';
+					}
+					
+					cardsHtml += `
+						<div class="domain-card ${riskClass}" data-domain="${domain.domain}">
+							<div class="domain-header">
+								<h3 class="domain-title">${domain.domain}</h3>
+								<span class="fuzzer-tag">${fuzzer}</span>
+							</div>
+							<div class="domain-content">
+								${dns_a ? `<div class="domain-detail"><span>IP:</span> ${dns_a}</div>` : ''}
+								${dns_mx ? `<div class="domain-detail"><span>MX:</span> ${dns_mx}</div>` : ''}
+								${dns_ns ? `<div class="domain-detail"><span>NS:</span> ${dns_ns}</div>` : ''}
+								${geoip ? `<div class="domain-detail"><span>Location:</span> ${geoip}</div>` : ''}
+							</div>
+							<div class="domain-actions">
+								<button onclick="copyDomain('${domain.domain}')" class="action-btn copy-btn">📋 Copy</button>
+								<button onclick="analyzeRisk('${domain.domain}')" class="action-btn analyze-btn">🔍 Analyze</button>
+							</div>
+						</div>
+					`;
+				});
+				
+				$('#data').html(`
+					<thead>
+						<tr>
+							<th>Domain</th>
+							<th>Fuzzer</th>
+							<th>IP</th>
+							<th>MX</th>
+							<th>NS</th>
+							<th>GeoIP</th>
+						</tr>
+					</thead>
+					<tbody>${tableRows}</tbody>
+				`);
+				
+				$('#domain-cards-container').html(cardsHtml);
+				
+				// Set current domain and header
+				$('#current-scan').text(`${data.domain} (Historical scan)`);
+				
+				$('#results').slideDown();
+				addActivityItem(`📜 Loaded historical scan for ${data.domain}`, 'info');
+				
+			} else {
+				$('#data').html('<tr><td colspan="6">No data available for this scan</td></tr>');
+				$('#domain-cards-container').html('<p>No data available for this scan</p>');
+				addActivityItem('❌ No data found for historical scan', 'error');
+			}
+		},
+		error: function() {
+			$('#loading').slideUp();
+			showMessage('❌ Error loading historical scan', 'error');
+		}
+	});
+}
 </script>
 </html>
+
+
+

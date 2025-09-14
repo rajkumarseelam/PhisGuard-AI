@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  webapp:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=phisguard
+      - DB_USER=postgres
+      - DB_PASS=postgres
+      - DB_ENABLE=true
+    depends_on:
+      - postgres
+    networks:
+      - phisguard-net
+      
+  postgres:
+    image: postgres:15
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=phisguard
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - phisguard-net
+
+networks:
+  phisguard-net:
+    driver: bridge
+
+volumes:
+  postgres-data:
