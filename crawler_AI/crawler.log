@@ -1,0 +1,667 @@
+2025-09-14 21:48:28,446 - INFO - Starting BFS domain crawl for: onlinesbi.sbi (max depth: 2)
+2025-09-14 21:48:28,447 - INFO - Starting subdomain discovery for onlinesbi.sbi
+2025-09-14 21:48:35,206 - INFO - Found 64 subdomains for onlinesbi.sbi
+2025-09-14 21:48:35,206 - INFO - Found 64 domains to crawl
+2025-09-14 21:48:35,213 - INFO - Starting BFS crawl of 64 domains (max depth: 2)
+2025-09-14 21:48:37,096 - WARNING - Failed to crawl http://mysbiworlduat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://mysbiworlduat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://mysbiworlduat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:37,102 - WARNING - Failed to crawl https://mysbiworlduat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://mysbiworlduat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://mysbiworlduat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:37,296 - WARNING - Failed to crawl http://www.yonouatretail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.yonouatretail.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.yonouatretail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:37,313 - WARNING - Failed to crawl https://www.uatretail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.uatretail.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.uatretail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:37,324 - WARNING - Failed to crawl https://www.yonouatretail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.yonouatretail.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.yonouatretail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:37,839 - WARNING - Failed to crawl http://www.uatretail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.uatretail.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.uatretail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:37,889 - WARNING - Failed to crawl http://www.intralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.intralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.intralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:37,895 - WARNING - Failed to crawl https://www.intralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.intralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.intralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:38,111 - WARNING - Failed to crawl http://www.portalwm.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.portalwm.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.portalwm.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:38,114 - WARNING - Failed to crawl https://www.portalwm.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.portalwm.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.portalwm.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:39,064 - WARNING - Failed to crawl http://www.merchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.merchant.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.merchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:39,070 - WARNING - Failed to crawl https://www.merchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.merchant.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.merchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:39,246 - WARNING - Failed to crawl http://www.uatcorp.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.uatcorp.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.uatcorp.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:39,253 - WARNING - Failed to crawl https://www.uatcorp.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.uatcorp.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.uatcorp.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:40,238 - WARNING - Failed to crawl http://www.corp.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.corp.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.corp.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:40,245 - WARNING - Failed to crawl https://www.corp.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.corp.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.corp.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:48:47,241 - INFO - Successfully crawled (depth 0): https://eforex.onlinesbi.sbi
+2025-09-14 21:48:56,730 - INFO - Successfully crawled (depth 0): https://corp.onlinesbi.sbi
+2025-09-14 21:48:58,757 - INFO - Successfully crawled (depth 0): http://corp.onlinesbi.sbi
+2025-09-14 21:49:01,077 - WARNING - Failed to crawl http://eforex.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://eforex.onlinesbi.sbi/
+Call log:
+  - navigating to "http://eforex.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:01,382 - WARNING - Failed to crawl http://www.uatmerchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.uatmerchant.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.uatmerchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:01,387 - WARNING - Failed to crawl https://www.uatmerchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.uatmerchant.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.uatmerchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:01,542 - WARNING - Failed to crawl http://corpuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://corpuat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://corpuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:01,550 - WARNING - Failed to crawl https://corpuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://corpuat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://corpuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:01,630 - WARNING - Failed to crawl https://www.merchantuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.merchantuat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.merchantuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:02,350 - WARNING - Failed to crawl http://www.merchantuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.merchantuat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.merchantuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:04,880 - INFO - Successfully crawled (depth 0): http://oaa.onlinesbi.sbi
+2025-09-14 21:49:05,427 - INFO - Successfully crawled (depth 0): https://oaa.onlinesbi.sbi
+2025-09-14 21:49:37,208 - ERROR - Error extracting data from http://www.onlinesbi.sbi: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+
+2025-09-14 21:49:38,390 - ERROR - Error extracting data from https://www.onlinesbi.sbi: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+
+2025-09-14 21:49:38,808 - WARNING - Failed to crawl http://www.corpuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.corpuat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.corpuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:38,814 - WARNING - Failed to crawl https://www.corpuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.corpuat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.corpuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:38,932 - WARNING - Failed to crawl http://merchantuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://merchantuat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://merchantuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:38,937 - WARNING - Failed to crawl https://merchantuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://merchantuat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://merchantuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:39,788 - WARNING - Failed to crawl http://uat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://uat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://uat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:39,795 - WARNING - Failed to crawl https://uat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://uat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://uat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:40,032 - WARNING - Failed to crawl http://www.yfei.muat.web.intouch.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.yfei.muat.web.intouch.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.yfei.muat.web.intouch.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:40,038 - WARNING - Failed to crawl https://www.yfei.muat.web.intouch.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.yfei.muat.web.intouch.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.yfei.muat.web.intouch.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:40,100 - WARNING - Failed to crawl http://dvmerchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at http://dvmerchant.onlinesbi.sbi/
+Call log:
+  - navigating to "http://dvmerchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:44,422 - INFO - Successfully crawled (depth 0): https://dvmerchant.onlinesbi.sbi
+2025-09-14 21:49:44,665 - WARNING - Failed to crawl https://www.bbps.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bbps.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.bbps.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:44,788 - WARNING - Failed to crawl http://www.retailuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.retailuat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.retailuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:44,794 - WARNING - Failed to crawl https://www.retailuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.retailuat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.retailuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:44,808 - WARNING - Failed to crawl http://intralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://intralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "http://intralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:44,826 - WARNING - Failed to crawl https://intralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://intralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "https://intralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:45,678 - WARNING - Failed to crawl http://www.bbps.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.bbps.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.bbps.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:45,762 - WARNING - Failed to crawl http://www.Yonouatintralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.yonouatintralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.yonouatintralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:45,766 - WARNING - Failed to crawl https://www.Yonouatintralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.yonouatintralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.yonouatintralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:48,230 - INFO - Successfully crawled (depth 0): https://uatmerchant.onlinesbi.sbi
+2025-09-14 21:49:48,297 - INFO - Successfully crawled (depth 0): http://uatmerchant.onlinesbi.sbi
+2025-09-14 21:49:48,596 - WARNING - Failed to crawl http://www.yonoretuatinbintranet.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.yonoretuatinbintranet.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.yonoretuatinbintranet.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:48,604 - WARNING - Failed to crawl https://www.yonoretuatinbintranet.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.yonoretuatinbintranet.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.yonoretuatinbintranet.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:48,668 - WARNING - Failed to crawl https://www.fs.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.fs.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.fs.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:49,472 - WARNING - Failed to crawl http://www.fs.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.fs.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.fs.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:49,680 - WARNING - Failed to crawl http://inblotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://inblotus.onlinesbi.sbi/
+Call log:
+  - navigating to "http://inblotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:49,687 - WARNING - Failed to crawl https://inblotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://inblotus.onlinesbi.sbi/
+Call log:
+  - navigating to "https://inblotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:49,904 - WARNING - Failed to crawl http://www.inblotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.inblotus.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.inblotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:49,910 - WARNING - Failed to crawl https://www.inblotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.inblotus.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.inblotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:49:57,132 - INFO - Successfully crawled (depth 0): http://retail.onlinesbi.sbi
+2025-09-14 21:50:07,577 - INFO - Successfully crawled (depth 0): https://retail.onlinesbi.sbi
+2025-09-14 21:50:07,830 - WARNING - Failed to crawl https://www.yonouatintralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.yonouatintralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.yonouatintralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:07,839 - WARNING - Failed to crawl http://www.yonouatintralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.yonouatintralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.yonouatintralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:07,907 - WARNING - Failed to crawl https://yonoretuatinbintranet.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://yonoretuatinbintranet.onlinesbi.sbi/
+Call log:
+  - navigating to "https://yonoretuatinbintranet.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:08,235 - WARNING - Failed to crawl http://yonouatintralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://yonouatintralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "http://yonouatintralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:08,242 - WARNING - Failed to crawl https://yonouatintralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://yonouatintralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "https://yonouatintralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:08,817 - WARNING - Failed to crawl http://yonoretuatinbintranet.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://yonoretuatinbintranet.onlinesbi.sbi/
+Call log:
+  - navigating to "http://yonoretuatinbintranet.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:08,879 - WARNING - Failed to crawl http://www.mysbiworld.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.mysbiworld.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.mysbiworld.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:08,884 - WARNING - Failed to crawl https://www.mysbiworld.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mysbiworld.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.mysbiworld.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:08,933 - WARNING - Failed to crawl http://mysbiworld.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://mysbiworld.onlinesbi.sbi/
+Call log:
+  - navigating to "http://mysbiworld.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:08,937 - WARNING - Failed to crawl https://mysbiworld.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://mysbiworld.onlinesbi.sbi/
+Call log:
+  - navigating to "https://mysbiworld.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:10,957 - WARNING - Failed to crawl http://www.dvmerchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.dvmerchant.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.dvmerchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:10,963 - WARNING - Failed to crawl https://www.dvmerchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.dvmerchant.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.dvmerchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:14,485 - WARNING - Failed to crawl https://esbtr.onlinesbi.sbi (depth 0): HTTP 403
+2025-09-14 21:50:14,675 - INFO - Successfully crawled (depth 0): https://fs.onlinesbi.sbi
+2025-09-14 21:50:30,869 - WARNING - Failed to crawl https://uatretail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://uatretail.onlinesbi.sbi/
+Call log:
+  - navigating to "https://uatretail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:30,872 - WARNING - Failed to crawl http://uatretail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://uatretail.onlinesbi.sbi/
+Call log:
+  - navigating to "http://uatretail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:31,004 - WARNING - Failed to crawl https://inbsfg.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://inbsfg.onlinesbi.sbi/
+Call log:
+  - navigating to "https://inbsfg.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:31,007 - WARNING - Failed to crawl http://inbsfg.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://inbsfg.onlinesbi.sbi/
+Call log:
+  - navigating to "http://inbsfg.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:31,853 - WARNING - Failed to crawl http://esbtr.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://esbtr.onlinesbi.sbi/
+Call log:
+  - navigating to "http://esbtr.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:31,918 - WARNING - Failed to crawl http://fs.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://fs.onlinesbi.sbi/
+Call log:
+  - navigating to "http://fs.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:32,169 - WARNING - Failed to crawl http://www.mobilewm.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.mobilewm.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.mobilewm.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:32,176 - WARNING - Failed to crawl https://www.mobilewm.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mobilewm.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.mobilewm.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:32,189 - WARNING - Failed to crawl http://www.uat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.uat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.uat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:32,195 - WARNING - Failed to crawl https://www.uat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.uat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.uat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:33,191 - WARNING - Failed to crawl http://www.oaa.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.oaa.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.oaa.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:33,193 - WARNING - Failed to crawl https://www.oaa.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.oaa.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.oaa.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:33,284 - WARNING - Failed to crawl http://www.uatbbps.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.uatbbps.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.uatbbps.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:33,287 - WARNING - Failed to crawl https://www.uatbbps.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.uatbbps.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.uatbbps.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:44,408 - INFO - Successfully crawled (depth 0): http://onlinesbi.sbi
+2025-09-14 21:50:54,500 - INFO - Successfully crawled (depth 0): https://onlinesbi.sbi
+2025-09-14 21:50:54,715 - WARNING - Failed to crawl https://Yonouatintralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://yonouatintralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "https://yonouatintralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:54,721 - WARNING - Failed to crawl http://Yonouatintralotus.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://yonouatintralotus.onlinesbi.sbi/
+Call log:
+  - navigating to "http://yonouatintralotus.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:55,004 - WARNING - Failed to crawl http://inbintranet.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://inbintranet.onlinesbi.sbi/
+Call log:
+  - navigating to "http://inbintranet.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:55,007 - WARNING - Failed to crawl https://inbintranet.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://inbintranet.onlinesbi.sbi/
+Call log:
+  - navigating to "https://inbintranet.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:55,870 - WARNING - Failed to crawl http://www.mysbiworlduat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.mysbiworlduat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.mysbiworlduat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:55,874 - WARNING - Failed to crawl https://www.mysbiworlduat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mysbiworlduat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.mysbiworlduat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:55,976 - WARNING - Failed to crawl http://uatbbps.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://uatbbps.onlinesbi.sbi/
+Call log:
+  - navigating to "http://uatbbps.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:50:55,983 - WARNING - Failed to crawl https://uatbbps.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://uatbbps.onlinesbi.sbi/
+Call log:
+  - navigating to "https://uatbbps.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:15,841 - WARNING - Failed to crawl https://yfei.muat.web.intouch.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://yfei.muat.web.intouch.onlinesbi.sbi/
+Call log:
+  - navigating to "https://yfei.muat.web.intouch.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:16,787 - WARNING - Failed to crawl http://yfei.muat.web.intouch.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://yfei.muat.web.intouch.onlinesbi.sbi/
+Call log:
+  - navigating to "http://yfei.muat.web.intouch.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:17,060 - WARNING - Failed to crawl http://portalwm.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://portalwm.onlinesbi.sbi/
+Call log:
+  - navigating to "http://portalwm.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:17,064 - WARNING - Failed to crawl https://portalwm.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://portalwm.onlinesbi.sbi/
+Call log:
+  - navigating to "https://portalwm.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:17,192 - WARNING - Failed to crawl http://retailuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://retailuat.onlinesbi.sbi/
+Call log:
+  - navigating to "http://retailuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:17,200 - WARNING - Failed to crawl https://retailuat.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://retailuat.onlinesbi.sbi/
+Call log:
+  - navigating to "https://retailuat.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:18,081 - WARNING - Failed to crawl http://www.eforex.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.eforex.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.eforex.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:18,083 - WARNING - Failed to crawl https://www.eforex.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.eforex.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.eforex.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:18,129 - WARNING - Failed to crawl http://www.inbsfg.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.inbsfg.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.inbsfg.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:18,133 - WARNING - Failed to crawl https://www.inbsfg.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.inbsfg.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.inbsfg.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:38,195 - WARNING - Failed to crawl https://uatcorp.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://uatcorp.onlinesbi.sbi/
+Call log:
+  - navigating to "https://uatcorp.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:38,954 - WARNING - Failed to crawl http://uatcorp.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://uatcorp.onlinesbi.sbi/
+Call log:
+  - navigating to "http://uatcorp.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:39,203 - WARNING - Failed to crawl http://www.esbtr.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.esbtr.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.esbtr.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:39,209 - WARNING - Failed to crawl https://www.esbtr.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.esbtr.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.esbtr.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:39,234 - WARNING - Failed to crawl http://bbps.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://bbps.onlinesbi.sbi/
+Call log:
+  - navigating to "http://bbps.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:39,258 - WARNING - Failed to crawl https://bbps.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bbps.onlinesbi.sbi/
+Call log:
+  - navigating to "https://bbps.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:39,292 - WARNING - Failed to crawl https://www.inbintranet.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.inbintranet.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.inbintranet.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:40,085 - WARNING - Failed to crawl http://www.inbintranet.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.inbintranet.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.inbintranet.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:40,242 - WARNING - Failed to crawl https://www.yonouatmerchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.yonouatmerchant.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.yonouatmerchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:40,247 - WARNING - Failed to crawl http://www.yonouatmerchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.yonouatmerchant.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.yonouatmerchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:40,275 - WARNING - Failed to crawl http://yonouatmerchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://yonouatmerchant.onlinesbi.sbi/
+Call log:
+  - navigating to "http://yonouatmerchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:40,290 - WARNING - Failed to crawl https://yonouatmerchant.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://yonouatmerchant.onlinesbi.sbi/
+Call log:
+  - navigating to "https://yonouatmerchant.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:41,232 - WARNING - Failed to crawl http://www.retail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.retail.onlinesbi.sbi/
+Call log:
+  - navigating to "http://www.retail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:41,239 - WARNING - Failed to crawl https://www.retail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.retail.onlinesbi.sbi/
+Call log:
+  - navigating to "https://www.retail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:42,266 - WARNING - Failed to crawl http://mobilewm.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at http://mobilewm.onlinesbi.sbi/
+Call log:
+  - navigating to "http://mobilewm.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:42,271 - WARNING - Failed to crawl https://mobilewm.onlinesbi.sbi (depth 0): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://mobilewm.onlinesbi.sbi/
+Call log:
+  - navigating to "https://mobilewm.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:51:43,466 - INFO - Successfully crawled (depth 0): https://merchant.onlinesbi.sbi
+2025-09-14 21:51:45,296 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/npersonal/sbi_home.html
+2025-09-14 21:51:45,509 - INFO - Successfully crawled (depth 0): http://merchant.onlinesbi.sbi
+2025-09-14 21:51:48,132 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/#mainContent
+2025-09-14 21:52:02,114 - WARNING - Failed to crawl https://yonouatretail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://yonouatretail.onlinesbi.sbi/
+Call log:
+  - navigating to "https://yonouatretail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:52:02,139 - WARNING - Failed to crawl http://yonouatretail.onlinesbi.sbi (depth 0): Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://yonouatretail.onlinesbi.sbi/
+Call log:
+  - navigating to "http://yonouatretail.onlinesbi.sbi/", waiting until "domcontentloaded"
+
+2025-09-14 21:52:12,102 - INFO - Successfully crawled (depth 1): https://merchant.onlinesbi.sbi/mopsprelogin/mopsBilldeskCancelTransaction.htm
+2025-09-14 21:52:17,022 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/retail/mcashclaimwin.htm
+2025-09-14 21:52:17,287 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/merchant/payment_gateway_charges.html
+2025-09-14 21:52:19,158 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/corporate/sbi/corp_faq.html
+2025-09-14 21:52:21,204 - INFO - Successfully crawled (depth 1): https://merchant.onlinesbi.sbi/mopsprelogin/mopsremittanceform.htm
+2025-09-14 21:52:22,199 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/npersonal/tax_retail.html
+2025-09-14 21:52:22,908 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/npersonal/faq.html
+2025-09-14 21:52:23,096 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/corporate/sbi/sbi_home.html
+2025-09-14 21:52:24,371 - INFO - Successfully crawled (depth 1): https://merchant.onlinesbi.sbi/mopsprelogin/mopsRtgsNeftChallanDownload.htm
+2025-09-14 21:52:45,658 - INFO - Successfully crawled (depth 1): https://www.onlinesbi.sbi/sbicollect/icollecthome.htm
+2025-09-14 21:52:52,878 - INFO - Successfully crawled (depth 1): https://oaa.onlinesbi.sbi/oaonri/onlineaccapp.htm
+2025-09-14 21:52:53,202 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/vkyc/vkyclanding.htm
+2025-09-14 21:52:53,793 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/oaorevamp/oaolanding.htm
+2025-09-14 21:52:53,798 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/vkyccao/vkycoaolanding.htm
+2025-09-14 21:52:54,295 - INFO - Successfully crawled (depth 1): https://onlineapply.sbi.co.in/personal-banking/pension-loan
+2025-09-14 21:52:55,850 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/mcaoao/mcaaccopening.htm
+2025-09-14 21:52:55,940 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/lamf/mflanding.htm
+2025-09-14 21:52:55,949 - INFO - Successfully crawled (depth 1): https://onlineapply.sbi.co.in/personal-banking/personal-loan
+2025-09-14 21:52:55,955 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/npersonal/reg_forms.html
+2025-09-14 21:52:56,285 - INFO - Successfully crawled (depth 1): https://merchant.onlinesbi.sbi/npcimandatecug/emandateloanregistration.htm
+2025-09-14 21:52:57,898 - WARNING - Failed to crawl https://www.onlinesbi.sbi/documents/GSTN_Transactions_Updation_Process.pdf (depth 1): Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.onlinesbi.sbi/documents/GSTN_Transactions_Updation_Process.pdf", waiting until "domcontentloaded"
+
+2025-09-14 21:53:02,067 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/help_personal.html
+2025-09-14 21:53:02,494 - INFO - Successfully crawled (depth 1): https://www.onlinesbiglobal.com/
+2025-09-14 21:53:04,578 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/retfinavailod/hulretailerinitial.htm
+2025-09-14 21:53:05,376 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/sbijava/retail/html/faq_nagpur_metro.html
+2025-09-14 21:53:11,417 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/retail/blockatmcardintermediate.htm
+2025-09-14 21:53:11,580 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/retail/login.htm
+2025-09-14 21:53:15,209 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/sbijava/retail/html/faq_noida_metro.html
+2025-09-14 21:53:17,471 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/hindi/sbi_home.html
+2025-09-14 21:53:17,754 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/ybbihelp/help_corporate.html
+2025-09-14 21:53:18,029 - WARNING - Failed to crawl https://www.onlinesbi.sbi/documents/Yono_Business_Fair_Practice_Lending_Code.pdf (depth 1): Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.onlinesbi.sbi/documents/Yono_Business_Fair_Practice_Lending_Code.pdf", waiting until "domcontentloaded"
+
+2025-09-14 21:53:18,032 - WARNING - Failed to crawl https://retail.onlinesbi.sbi/documents/BEAWARE07032022.pdf (depth 1): Page.goto: Download is starting
+Call log:
+  - navigating to "https://retail.onlinesbi.sbi/documents/BEAWARE07032022.pdf", waiting until "domcontentloaded"
+
+2025-09-14 21:53:22,053 - INFO - Successfully crawled (depth 1): https://corp.onlinesbi.sbi/corporate/sbi/cinb_videos.html
+2025-09-14 21:53:22,928 - INFO - Successfully crawled (depth 1): https://onlineapply.sbi.co.in/personal-banking/cve?utm=InbPreLogin
+2025-09-14 21:53:25,221 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/sbijava/retail/html/annex_gdpr_consent.html
+2025-09-14 21:53:25,364 - INFO - Successfully crawled (depth 1): https://eforex.onlinesbi.sbi/troubleLoggingin.jsp
+2025-09-14 21:53:29,743 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/npersonal/rinb_videos.html
+2025-09-14 21:53:30,518 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/#mainContent
+2025-09-14 21:53:30,695 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/npersonal/contact_us.html
+2025-09-14 21:53:33,348 - INFO - Successfully crawled (depth 1): https://www.onlinesbi.sbi/
+2025-09-14 21:53:38,823 - INFO - Successfully crawled (depth 1): https://www.onlinesbi.sbi/help_personal.html
+2025-09-14 21:53:44,491 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/help_personal.html
+2025-09-14 21:53:46,107 - INFO - Successfully crawled (depth 1): https://onlinesbi.sbi/hindi/sbi_home.html
+2025-09-14 21:53:46,773 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/aboutus.html
+2025-09-14 21:53:47,760 - INFO - Successfully crawled (depth 1): https://onlinesbi.sbi/help_personal.html
+2025-09-14 21:53:54,677 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/security_tips.html
+2025-09-14 21:53:57,540 - INFO - Successfully crawled (depth 1): https://www.onlinesbi.sbi/hindi/sbi_home.html
+2025-09-14 21:54:01,283 - INFO - Successfully crawled (depth 1): https://www.onlinesbi.sbi/#mainContent
+2025-09-14 21:54:03,767 - INFO - Successfully crawled (depth 1): https://onlinesbi.sbi/#mainContent
+2025-09-14 21:54:12,961 - INFO - Successfully crawled (depth 1): https://retail.onlinesbi.sbi/hindi/sbi_home.html
+2025-09-14 21:54:13,147 - WARNING - Failed to crawl https://remit.onlinesbi.com/ (depth 2): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://remit.onlinesbi.com/
+Call log:
+  - navigating to "https://remit.onlinesbi.com/", waiting until "domcontentloaded"
+
+2025-09-14 21:54:15,331 - WARNING - Failed to crawl https://retail.onlinesbi.sbi/sbi/downloads/State_Bank_mCash.pdf (depth 2): Page.goto: Download is starting
+Call log:
+  - navigating to "https://retail.onlinesbi.sbi/sbi/downloads/State_Bank_mCash.pdf", waiting until "domcontentloaded"
+
+2025-09-14 21:54:17,568 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/etdr_estdr_faq.html
+2025-09-14 21:54:20,513 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/retail/mcashclaim.htm?bankCode=0
+2025-09-14 21:54:21,814 - INFO - Successfully crawled (depth 2): https://onlineapply.sbi.co.in/personal-banking/
+2025-09-14 21:54:21,990 - INFO - Successfully crawled (depth 2): https://www.onlinesbi.sbi/sbijava/osbi_eAnnuity_faq.html
+2025-09-14 21:54:27,184 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_merchantslist.html
+2025-09-14 21:54:27,393 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/sitemap.html
+2025-09-14 21:54:28,046 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/sbi_home.html#searchResults
+2025-09-14 21:54:30,307 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/safe_online_banking.html
+2025-09-14 21:54:34,320 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/sbijava/osbi_etdr_itss_nro_faq.html
+2025-09-14 21:54:34,826 - INFO - Successfully crawled (depth 2): https://www.onlinesbi.sbi/sbijava/osbi_etdr_itss_faq.html
+2025-09-14 21:54:35,183 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/visa_faq.html
+2025-09-14 21:54:36,666 - INFO - Successfully crawled (depth 2): https://www.onlinesbi.sbi/sbijava/imps_faq.html
+2025-09-14 21:54:39,541 - INFO - Successfully crawled (depth 2): https://www.onlinesbi.sbi/sbijava/osbi_e-RD_faq.html
+2025-09-14 21:54:41,578 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/block_atmcard.html
+2025-09-14 21:54:43,077 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/fund_transfer.html
+2025-09-14 21:54:45,963 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/neft_rtgs_faq.html
+2025-09-14 21:54:46,990 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/forex_outward_faq.html
+2025-09-14 21:54:47,880 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/smart_payout_card.html
+2025-09-14 21:54:48,085 - WARNING - Failed to crawl https://prepaid.onlinesbi.com (depth 2): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://prepaid.onlinesbi.com/
+Call log:
+  - navigating to "https://prepaid.onlinesbi.com/", waiting until "domcontentloaded"
+
+2025-09-14 21:54:55,281 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/sbijava/osbi_etdr_mod_faq.html
+2025-09-14 21:55:03,786 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/bill_payment.html
+2025-09-14 21:55:06,575 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/view_tax_credit.html
+2025-09-14 21:55:12,265 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/online_railway_tickets.html
+2025-09-14 21:55:16,493 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/homeloan_certificate_1213.html
+2025-09-14 21:55:19,966 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/upsc_ssc.html
+2025-09-14 21:55:22,724 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/pension_faq.html
+2025-09-14 21:55:22,726 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/etds_faq.html
+2025-09-14 21:55:23,518 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/government_ptax.html
+2025-09-14 21:55:44,302 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/sbi_home.html#carouselQuickLinks
+2025-09-14 21:55:45,715 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/sbi_home.html#homeBannerCarousel
+2025-09-14 21:55:46,425 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/sbi_home.html#secContUsefulLinks
+2025-09-14 21:55:47,627 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/privacy_statement.html
+2025-09-14 21:55:51,359 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/sbi_home.html#secContProductsAndServices
+2025-09-14 21:55:53,008 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/sbi_home.html#secContQuickLinks
+2025-09-14 21:55:55,451 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/sbi_home.html#secContWhatsNew
+2025-09-14 21:56:01,588 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/sbi_home.html#secContValuesAddedServices
+2025-09-14 21:56:06,204 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/disclosure.html
+2025-09-14 21:56:08,345 - INFO - Successfully crawled (depth 2): http://retail.onlinesbi.sbi/sbi_home.html
+2025-09-14 21:56:08,565 - WARNING - Failed to crawl https://mobile.onlinesbi.com/sbidownloader/DownloadApplication.action (depth 2): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://mobile.onlinesbi.com/sbidownloader/DownloadApplication.action
+Call log:
+  - navigating to "https://mobile.onlinesbi.com/sbidownloader/DownloadApplication.action", waiting until "domcontentloaded"
+
+2025-09-14 21:56:13,954 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_products.html
+2025-09-14 21:56:23,272 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/terms_of_service.html
+2025-09-14 21:56:23,486 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_reachus.html
+2025-09-14 21:56:26,618 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_sitemap.html
+2025-09-14 21:56:29,973 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/
+2025-09-14 21:56:32,309 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_aboutonlinesbi.html
+2025-09-14 21:56:35,480 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_services.html
+2025-09-14 21:56:38,920 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_regisrationforms.html
+2025-09-14 21:56:59,944 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/
+2025-09-14 21:57:01,233 - WARNING - Failed to crawl https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBH_IFSC_DETAILS_NEW.xls (depth 2): Page.goto: Download is starting
+Call log:
+  - navigating to "https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBH_IFSC_DETAILS_NEW.xls", waiting until "domcontentloaded"
+
+2025-09-14 21:57:01,254 - WARNING - Failed to crawl https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBP_IFSC_DETAILS_NEW.xls (depth 2): Page.goto: Download is starting
+Call log:
+  - navigating to "https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBP_IFSC_DETAILS_NEW.xls", waiting until "domcontentloaded"
+
+2025-09-14 21:57:01,282 - WARNING - Failed to crawl https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBBJ_NEW_Branch_Code_Details.xls (depth 2): Page.goto: Download is starting
+Call log:
+  - navigating to "https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBBJ_NEW_Branch_Code_Details.xls", waiting until "domcontentloaded"
+
+2025-09-14 21:57:07,903 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corpuser/login.htm?type=GINB
+2025-09-14 21:57:14,889 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_vyappar.html
+2025-09-14 21:57:18,741 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_khata.html
+2025-09-14 21:57:19,598 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_vistaar.html
+2025-09-14 21:57:22,476 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_khataplus.html
+2025-09-14 21:57:22,594 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_saral_banner.html
+2025-09-14 21:57:24,807 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/hindi/sbi_home.html
+2025-09-14 21:57:25,041 - WARNING - Failed to crawl https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBBJ_IFSC_DETAILS_NEW.xls (depth 2): Page.goto: Download is starting
+Call log:
+  - navigating to "https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBBJ_IFSC_DETAILS_NEW.xls", waiting until "domcontentloaded"
+
+2025-09-14 21:57:25,108 - WARNING - Failed to crawl https://corp.onlinesbi.sbi/corporate/sbi/downloads/eSBM_NEW_IFSC.xls (depth 2): Page.goto: Download is starting
+Call log:
+  - navigating to "https://corp.onlinesbi.sbi/corporate/sbi/downloads/eSBM_NEW_IFSC.xls", waiting until "domcontentloaded"
+
+2025-09-14 21:57:25,110 - WARNING - Failed to crawl https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBT_IFSC_DETAILS_NEW.xls (depth 2): Page.goto: Download is starting
+Call log:
+  - navigating to "https://corp.onlinesbi.sbi/corporate/sbi/downloads/SBT_IFSC_DETAILS_NEW.xls", waiting until "domcontentloaded"
+
+2025-09-14 21:57:33,679 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_epayments.html
+2025-09-14 21:57:35,962 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_sb_collect.html
+2025-09-14 21:57:38,317 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/cinb_registration.html
+2025-09-14 21:57:41,713 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_etr_estdr_faq.html
+2025-09-14 21:57:43,330 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_eTax.html
+2025-09-14 21:57:45,723 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_oldannouncement.html
+2025-09-14 21:57:49,211 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_aboutverisign.html
+2025-09-14 21:57:50,374 - WARNING - Failed to crawl https://crcf.sbi.co.in (depth 2): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://crcf.sbi.co.in/
+Call log:
+  - navigating to "https://crcf.sbi.co.in/", waiting until "domcontentloaded"
+
+2025-09-14 21:57:57,404 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_privacy.html
+2025-09-14 21:58:01,392 - INFO - Successfully crawled (depth 2): https://merchant.onlinesbi.sbi/merchantcug/enquirytxnstatus.htm
+2025-09-14 21:58:06,614 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/tax_retail.html#searchResults
+2025-09-14 21:58:11,702 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_supply_chain_finance.html
+2025-09-14 21:58:15,151 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_terms.html
+2025-09-14 21:58:18,243 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/npersonal/safebanking_advisory.html
+2025-09-14 21:58:19,906 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_disclosure.html
+2025-09-14 21:58:23,105 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_merchantpayment.html
+2025-09-14 21:58:25,301 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/saral/login.htm
+2025-09-14 21:58:26,483 - WARNING - Failed to crawl https://merchantuat.onlinesbi.sbi/merchantpos/01_mp_landing.html (depth 2): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://merchantuat.onlinesbi.sbi/merchantpos/01_mp_landing.html
+Call log:
+  - navigating to "https://merchantuat.onlinesbi.sbi/merchantpos/01_mp_landing.html", waiting until "domcontentloaded"
+
+2025-09-14 21:58:33,869 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_rtgs_neft_faq.html
+2025-09-14 21:58:38,862 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/
+2025-09-14 21:58:43,680 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_faq.html#top
+2025-09-14 21:58:44,492 - INFO - Successfully crawled (depth 2): https://merchant.onlinesbi.sbi/mopsprelogin/preloginexit.htm
+2025-09-14 21:58:49,202 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_securitytips.html
+2025-09-14 21:58:50,730 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_aboutphishing.html
+2025-09-14 21:58:51,733 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/khata/login.htm
+2025-09-14 21:58:55,071 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corporate/sbi/corp_dsc_faq.html
+2025-09-14 21:58:59,584 - INFO - Successfully crawled (depth 2): https://corp.onlinesbi.sbi/corpuser/login.htm
+2025-09-14 21:59:03,041 - INFO - Successfully crawled (depth 2): https://oaa.onlinesbi.sbi/oaonri/onlineAccOpenNriProcedure.htm
+2025-09-14 21:59:03,163 - INFO - Successfully crawled (depth 2): https://oaa.onlinesbi.sbi/oaonri/onlineAccOpenNriSteps.htm
+2025-09-14 21:59:03,591 - INFO - Successfully crawled (depth 2): https://oaa.onlinesbi.sbi/oaonri/onlineAccOpenNriFaq.htm
+2025-09-14 21:59:03,816 - INFO - Successfully crawled (depth 2): https://oaa.onlinesbi.sbi/oaonri/onlineAccOpenNriChecklist.htm
+2025-09-14 21:59:06,784 - INFO - Successfully crawled (depth 2): https://oaa.onlinesbi.sbi/oaonri/onlineAccOpenNriReg.htm
+2025-09-14 21:59:08,911 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/sbijava/retail/html/Terms_of_Use.html
+2025-09-14 21:59:17,127 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/sbijava/retail/html/Privacy_Statement.html
+2025-09-14 21:59:17,311 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/sbijava/retail/html/hmpg_disclosure.html
+2025-09-14 21:59:18,370 - INFO - Successfully crawled (depth 2): https://retail.onlinesbi.sbi/retail/nriaccountstatusdetails.htm 
