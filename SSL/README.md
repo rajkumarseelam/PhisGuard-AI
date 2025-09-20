@@ -1,5 +1,8 @@
 # Domain Information and SSL Certificate Analyzer
 
+## 👨‍💻 Creator
+**Suraj Kumar** - Creator and Developer of the SSL Domain Analyzer Tool
+
 ## Overview
 The `domain_info.py` tool is a comprehensive Python script designed for cybersecurity analysis and domain intelligence gathering. It provides detailed information about domain registration and SSL certificate analysis, making it valuable for security professionals, researchers, and threat intelligence gathering.
 
@@ -227,4 +230,7 @@ This tool is part of the PhisGuard-AI project and is intended for legitimate sec
 ---
 
 ## 🤝 Contributing
-Contributions to improve the tool's functionality and accuracy are welcome. Please ensure all enhancements maintain the tool's security focus and data accuracy standards.
+This tool was created by **Suraj Kumar** as part of the PhisGuard-AI project. Contributions to improve the tool's functionality and accuracy are welcome. Please ensure all enhancements maintain the tool's security focus and data accuracy standards.
+
+## 👨‍💻 Author & Maintainer
+- **Suraj Kumar** - Original creator and primary developer
