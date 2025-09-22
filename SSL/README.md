@@ -1,7 +1,6 @@
 # Domain Information and SSL Certificate Analyzer
 
-## 👨‍💻 Creator
-**Suraj Kumar** - Creator and Developer of the SSL Domain Analyzer Tool
+##SSL Domain Analyzer Tool
 
 ## Overview
 The `domain_info.py` tool is a comprehensive Python script designed for cybersecurity analysis and domain intelligence gathering. It provides detailed information about domain registration and SSL certificate analysis, making it valuable for security professionals, researchers, and threat intelligence gathering.
